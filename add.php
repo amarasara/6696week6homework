@@ -125,7 +125,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $species=$_POST["species"];
     $breed=$_POST["breed"];
     $age=$_POST["age"];
-    $UD=$_POST["UD"];
+    $UDD=$_POST["UDD"];
     $condition=$_POST["condition"];
     $addd=$_POST["addd"];
 
