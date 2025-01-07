@@ -92,7 +92,7 @@
   <div class="row mb-3">
   <label for="inputEmail3" class="col-sm-2 col-form-label">U/D</label>
     <div class="col-sm-3">
-      <input type="taxt" class="form-control" id="inputPassword3"name="UD">
+      <input type="taxt" class="form-control" id="inputPassword3"name="UDD">
     </div>
   </div>
 
@@ -132,8 +132,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 try {
  
-    $sql = "INSERT INTO animal (yourname , email ,phone , namepet , species , breed , age ,UD , condition ,addd)
-    VALUES ('$yourname','$email','$phone','$namepet','$species','$breed','$age','$UD','$condition','$addd')";
+    $sql = "INSERT INTO animal (yourname , email ,phone , namepet , species , breed , age ,UDD , condition ,addd)
+    VALUES ('$yourname','$email','$phone','$namepet','$species','$breed','$age','$UDD','$condition','$addd')";
     // use exec() because no results are returned
     $conn->exec($sql);
     echo  "<div class='alert alert-success'>
